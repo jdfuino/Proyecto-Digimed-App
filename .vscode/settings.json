@@ -1,0 +1,64 @@
+{
+    "gitflow4code.features": [
+        {
+            "name": "feature/13_Create_page_to_provide_email_and_request_to_initiate_password_retrieval",
+            "base": "develop"
+        },
+        {
+            "name": "feature/#30_In_the_SOAP_entries,_add_the_option_to_edit,_create_a_new_record_and_go_to_history",
+            "base": "develop"
+        },
+        {
+            "name": "feature/notification_push_ios_complementary",
+            "base": "develop"
+        },
+        {
+            "name": "feature/biometric_authentication",
+            "base": "develop"
+        },
+        {
+            "name": "feature/correction_of_the_size_of_the_biometric_authentication_button",
+            "base": "develop"
+        },
+        {
+            "name": "feature/soap_submenu",
+            "base": "develop"
+        },
+        {
+            "name": "feature/FILTER_THE_SOAP_BY_TIME_RANGE",
+            "base": "develop"
+        },
+        {
+            "name": "feature/code_correction_in_super_admin",
+            "base": "develop"
+        },
+        {
+            "name": "feature/line_graph_if_it_exceeds_6_bars",
+            "base": "develop"
+        },
+        {
+            "name": "feature/prueba_de_graficas_para_cuando_exceda_de_los_6_puntos",
+            "base": "feature/line_graph_if_it_exceeds_6_bars"
+        },
+        {
+            "name": "feature/query_function_for_the_coordinator_home",
+            "base": "develop"
+        },
+        {
+            "name": "feature/new_graphics_section_for_ICM",
+            "base": "develop"
+        },
+        {
+            "name": "feature/edit_submenu_button",
+            "base": "develop"
+        },
+        {
+            "name": "feature/new_medicine_section",
+            "base": "develop"
+        },
+        {
+            "name": "feature/show_coordinators_from_admin",
+            "base": "develop"
+        }
+    ]
+}
