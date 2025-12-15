@@ -1,0 +1,59 @@
+name: digimed_web
+description: Digimed Web - Simplified web version
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Core UI
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.10+1
+
+  # State Management
+  provider: ^6.1.1
+
+  # Networking
+  http: ^1.1.2
+  graphql_flutter: ^5.1.2
+  connectivity_plus: ^6.1.4
+
+  # Storage (web compatible)
+  shared_preferences: ^2.5.3
+
+  # Utilities
+  intl: ^0.20.2
+  logger: ^2.5.0
+
+  # Charts
+  fl_chart: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/svgs/
+    - assets/icon/
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          style: normal
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
